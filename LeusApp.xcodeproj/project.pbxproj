@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BBA35B9E43CFA13C0DABAF /* Pods_LeusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944EF569901AC9179BCB9274 /* Pods_LeusApp.framework */; };
+		3C038CE229C0CDD100EC80DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C038CE129C0CDD100EC80DB /* AppDelegate.swift */; };
+		3C038CE429C0CDD100EC80DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C038CE329C0CDD100EC80DB /* SceneDelegate.swift */; };
+		3C038CE629C0CDD100EC80DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C038CE529C0CDD100EC80DB /* ViewController.swift */; };
+		3C038CE929C0CDD100EC80DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CE729C0CDD100EC80DB /* Main.storyboard */; };
+		3C038CEB29C0CDD200EC80DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CEA29C0CDD200EC80DB /* Assets.xcassets */; };
+		3C038CEE29C0CDD200EC80DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CEC29C0CDD200EC80DB /* LaunchScreen.storyboard */; };
+		3C038CF629C0D12700EC80DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CF529C0D12700EC80DB /* GoogleService-Info.plist */; };
+		3C37A7C529C10AA90037D786 /* UploadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C37A7C429C10AA90037D786 /* UploadingViewController.swift */; };
+		3C91227929C6236800E80AA1 /* NewFeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91227829C6236800E80AA1 /* NewFeedViewCell.swift */; };
+		3C9C321329C0E8FD00FF3199 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C321229C0E8FD00FF3199 /* FeedViewController.swift */; };
+		3C9C321729C0E92300FF3199 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C321629C0E92300FF3199 /* ChatViewController.swift */; };
+		3C9C321929C0E93900FF3199 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C321829C0E93900FF3199 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C038CDE29C0CDD100EC80DB /* LeusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C038CE129C0CDD100EC80DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C038CE329C0CDD100EC80DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C038CE529C0CDD100EC80DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C038CE829C0CDD100EC80DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C038CEA29C0CDD200EC80DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C038CED29C0CDD200EC80DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C038CEF29C0CDD200EC80DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C038CF529C0D12700EC80DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C37A7C429C10AA90037D786 /* UploadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadingViewController.swift; sourceTree = "<group>"; };
+		3C91227829C6236800E80AA1 /* NewFeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedViewCell.swift; sourceTree = "<group>"; };
+		3C9C321229C0E8FD00FF3199 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3C9C321629C0E92300FF3199 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3C9C321829C0E93900FF3199 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		944EF569901AC9179BCB9274 /* Pods_LeusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C133F5FE3006B2D4C3FBF8AD /* Pods-LeusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeusApp.release.xcconfig"; path = "Target Support Files/Pods-LeusApp/Pods-LeusApp.release.xcconfig"; sourceTree = "<group>"; };
+		E4C57A3E826E4F8DAB8F20F7 /* Pods-LeusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeusApp.debug.xcconfig"; path = "Target Support Files/Pods-LeusApp/Pods-LeusApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C038CDB29C0CDD100EC80DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BBA35B9E43CFA13C0DABAF /* Pods_LeusApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C038CD529C0CDD100EC80DB = {
+			isa = PBXGroup;
+			children = (
+				3C038CE029C0CDD100EC80DB /* LeusApp */,
+				3C038CDF29C0CDD100EC80DB /* Products */,
+				C346C0D6473DDD29FB2A9B58 /* Pods */,
+				7E966B059C5F1BC745934509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C038CDF29C0CDD100EC80DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C038CDE29C0CDD100EC80DB /* LeusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C038CE029C0CDD100EC80DB /* LeusApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C038CE129C0CDD100EC80DB /* AppDelegate.swift */,
+				3C038CE329C0CDD100EC80DB /* SceneDelegate.swift */,
+				3C038CE529C0CDD100EC80DB /* ViewController.swift */,
+				3C038CE729C0CDD100EC80DB /* Main.storyboard */,
+				3C038CEA29C0CDD200EC80DB /* Assets.xcassets */,
+				3C038CEC29C0CDD200EC80DB /* LaunchScreen.storyboard */,
+				3C038CEF29C0CDD200EC80DB /* Info.plist */,
+				3C038CF529C0D12700EC80DB /* GoogleService-Info.plist */,
+				3C9C321229C0E8FD00FF3199 /* FeedViewController.swift */,
+				3C91227829C6236800E80AA1 /* NewFeedViewCell.swift */,
+				3C9C321629C0E92300FF3199 /* ChatViewController.swift */,
+				3C9C321829C0E93900FF3199 /* SettingsViewController.swift */,
+				3C37A7C429C10AA90037D786 /* UploadingViewController.swift */,
+			);
+			path = LeusApp;
+			sourceTree = "<group>";
+		};
+		7E966B059C5F1BC745934509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944EF569901AC9179BCB9274 /* Pods_LeusApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C346C0D6473DDD29FB2A9B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C57A3E826E4F8DAB8F20F7 /* Pods-LeusApp.debug.xcconfig */,
+				C133F5FE3006B2D4C3FBF8AD /* Pods-LeusApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C038CDD29C0CDD100EC80DB /* LeusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C038CF229C0CDD200EC80DB /* Build configuration list for PBXNativeTarget "LeusApp" */;
+			buildPhases = (
+				424EF2038543E78969B71E44 /* [CP] Check Pods Manifest.lock */,
+				3C038CDA29C0CDD100EC80DB /* Sources */,
+				3C038CDB29C0CDD100EC80DB /* Frameworks */,
+				3C038CDC29C0CDD100EC80DB /* Resources */,
+				0FB602CF6246366CCC3857AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeusApp;
+			productName = LeusApp;
+			productReference = 3C038CDE29C0CDD100EC80DB /* LeusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C038CD629C0CDD100EC80DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3C038CDD29C0CDD100EC80DB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C038CD929C0CDD100EC80DB /* Build configuration list for PBXProject "LeusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C038CD529C0CDD100EC80DB;
+			productRefGroup = 3C038CDF29C0CDD100EC80DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C038CDD29C0CDD100EC80DB /* LeusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C038CDC29C0CDD100EC80DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C038CEE29C0CDD200EC80DB /* LaunchScreen.storyboard in Resources */,
+				3C038CF629C0D12700EC80DB /* GoogleService-Info.plist in Resources */,
+				3C038CEB29C0CDD200EC80DB /* Assets.xcassets in Resources */,
+				3C038CE929C0CDD100EC80DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB602CF6246366CCC3857AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeusApp/Pods-LeusApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeusApp/Pods-LeusApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeusApp/Pods-LeusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424EF2038543E78969B71E44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C038CDA29C0CDD100EC80DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C038CE629C0CDD100EC80DB /* ViewController.swift in Sources */,
+				3C91227929C6236800E80AA1 /* NewFeedViewCell.swift in Sources */,
+				3C9C321929C0E93900FF3199 /* SettingsViewController.swift in Sources */,
+				3C038CE229C0CDD100EC80DB /* AppDelegate.swift in Sources */,
+				3C37A7C529C10AA90037D786 /* UploadingViewController.swift in Sources */,
+				3C9C321329C0E8FD00FF3199 /* FeedViewController.swift in Sources */,
+				3C9C321729C0E92300FF3199 /* ChatViewController.swift in Sources */,
+				3C038CE429C0CDD100EC80DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C038CE729C0CDD100EC80DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C038CE829C0CDD100EC80DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C038CEC29C0CDD200EC80DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C038CED29C0CDD200EC80DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C038CF029C0CDD200EC80DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C038CF129C0CDD200EC80DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C038CF329C0CDD200EC80DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C57A3E826E4F8DAB8F20F7 /* Pods-LeusApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYS8QL65F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azimgunes.LeusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C038CF429C0CDD200EC80DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C133F5FE3006B2D4C3FBF8AD /* Pods-LeusApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYS8QL65F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azimgunes.LeusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C038CD929C0CDD100EC80DB /* Build configuration list for PBXProject "LeusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C038CF029C0CDD200EC80DB /* Debug */,
+				3C038CF129C0CDD200EC80DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C038CF229C0CDD200EC80DB /* Build configuration list for PBXNativeTarget "LeusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C038CF329C0CDD200EC80DB /* Debug */,
+				3C038CF429C0CDD200EC80DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C038CD629C0CDD100EC80DB /* Project object */;
+}
