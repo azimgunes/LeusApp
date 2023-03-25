@@ -19,6 +19,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     var userCommentArray = [String]()
     var likeArray = [Int]()
     var imageArray = [String]()
+    var documentIdArray = [String]()
+    
     
     
     override func viewDidLoad() {
@@ -36,8 +38,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func getDataFromFirestore () {
-        let firestoreDatabase = Firestore.firestore()
-        firestoreDatabase.collection("Posts").addSnapshotListener { snapshot, error in
+        let firestoreDatabase = Firestore.firestore();firestoreDatabase.collection("Posts").order(by: "date", descending: true).addSnapshotListener { snapshot, error in
             if error != nil {
                 print(error?.localizedDescription)
             }else {
@@ -47,8 +48,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
                     self.userMailArray.removeAll(keepingCapacity: false)
                     self.userCommentArray.removeAll(keepingCapacity: false)
                     self.likeArray.removeAll(keepingCapacity: false)
+                    self.documentIdArray.removeAll(keepingCapacity: false)
+                    
+                    
                     for document in snapshot!.documents {
                         let documentID = document.documentID
+                        self.documentIdArray.append(documentID)
                         
                         if let postedBy = document.get("postedBy") as? String {
                             self.userMailArray.append(postedBy)
@@ -79,6 +84,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.commentLabel.text = userCommentArray[indexPath.row]
         let transformer = SDImageResizingTransformer(size: CGSize(width: 350, height: 211), scaleMode: .aspectFit   )
         cell.userImageView.sd_setImage(with: URL(string: self.imageArray[indexPath.row]), placeholderImage: UIImage(named: "newtr.png"), options: SDWebImageOptions.refreshCached, context: [.imageTransformer: transformer])
+        cell.documentIdLabel.text = documentIdArray[indexPath.row]
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
