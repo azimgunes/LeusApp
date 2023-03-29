@@ -24,6 +24,13 @@ class ViewController: UIViewController {
      
     }
 
+    
+    
+    @IBAction func registerButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toRegisterVC", sender: nil)
+    }
+    
+    
     @IBAction func signInButton(_ sender: Any) {
         
  
@@ -43,20 +50,7 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func signUpButton(_ sender: Any) {
-        if emailText.text != "" && passwordText.text != "" {
-            Auth.auth().createUser(withEmail: emailText.text!, password: passwordText.text!) { authdata, error in
-                if error != nil {
-                    self.makeAlert(titleInput: "Hata!", messageInput: error?.localizedDescription ?? "Hata!")
-                } else {
-                    self.performSegue(withIdentifier: "toFeedVC", sender: nil)
-                }
-            }
-        } else {
-            self.makeAlert(titleInput: "Hata!", messageInput: "Hatalı e-posta ya da şifre!")
-        }
-  
-    }
+
     
     @objc func makeAlert(titleInput: String, messageInput: String){
         let alert = UIAlertController(title: titleInput, message: messageInput, preferredStyle: UIAlertController.Style.alert)
