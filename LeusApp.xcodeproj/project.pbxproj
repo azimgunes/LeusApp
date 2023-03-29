@@ -16,6 +16,7 @@
 		3C038CEE29C0CDD200EC80DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CEC29C0CDD200EC80DB /* LaunchScreen.storyboard */; };
 		3C038CF629C0D12700EC80DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C038CF529C0D12700EC80DB /* GoogleService-Info.plist */; };
 		3C37A7C529C10AA90037D786 /* UploadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C37A7C429C10AA90037D786 /* UploadingViewController.swift */; };
+		3C420B4A29D48CEF0038B40E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C420B4929D48CEF0038B40E /* RegisterViewController.swift */; };
 		3C91227929C6236800E80AA1 /* NewFeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C91227829C6236800E80AA1 /* NewFeedViewCell.swift */; };
 		3C9C321329C0E8FD00FF3199 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C321229C0E8FD00FF3199 /* FeedViewController.swift */; };
 		3C9C321729C0E92300FF3199 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C321629C0E92300FF3199 /* ChatViewController.swift */; };
@@ -33,6 +34,7 @@
 		3C038CEF29C0CDD200EC80DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C038CF529C0D12700EC80DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C37A7C429C10AA90037D786 /* UploadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadingViewController.swift; sourceTree = "<group>"; };
+		3C420B4929D48CEF0038B40E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3C91227829C6236800E80AA1 /* NewFeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedViewCell.swift; sourceTree = "<group>"; };
 		3C9C321229C0E8FD00FF3199 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3C9C321629C0E92300FF3199 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				3C9C321629C0E92300FF3199 /* ChatViewController.swift */,
 				3C9C321829C0E93900FF3199 /* SettingsViewController.swift */,
 				3C37A7C429C10AA90037D786 /* UploadingViewController.swift */,
+				3C420B4929D48CEF0038B40E /* RegisterViewController.swift */,
 			);
 			path = LeusApp;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C420B4A29D48CEF0038B40E /* RegisterViewController.swift in Sources */,
 				3C038CE629C0CDD100EC80DB /* ViewController.swift in Sources */,
 				3C91227929C6236800E80AA1 /* NewFeedViewCell.swift in Sources */,
 				3C9C321929C0E93900FF3199 /* SettingsViewController.swift in Sources */,

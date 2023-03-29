@@ -14,8 +14,8 @@
             filePath = "LeusApp/SettingsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "signOutButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
